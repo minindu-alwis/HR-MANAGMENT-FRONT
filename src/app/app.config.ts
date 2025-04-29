@@ -11,7 +11,7 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
     provideHttpClient(
-      withInterceptorsFromDi() 
+      withInterceptorsFromDi() // For class-based interceptors
     ),
     provideAnimations(),
     MessageService,

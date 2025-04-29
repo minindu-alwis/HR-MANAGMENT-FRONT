@@ -16,7 +16,7 @@ import { ToastModule } from 'primeng/toast';
       <header class="app-header">
         <div class="container">
           <div class="logo">
-            <h1>Rainbow HR</h1>
+            <h1>Fortium HR</h1>
           </div>
         </div>
       </header>
@@ -27,7 +27,7 @@ import { ToastModule } from 'primeng/toast';
       
       <footer class="app-footer">
         <div class="container">
-          <p>&copy; 2025 Rainbow Computer All rights reserved.</p>
+          <p>&copy; 2025 Fortium HR. All rights reserved.</p>
         </div>
       </footer>
     </div>
@@ -72,5 +72,5 @@ import { ToastModule } from 'primeng/toast';
   `]
 })
 export class AppComponent {
-  title = 'Rainbow-HR';
+  title = 'Fortium HR';
 }
