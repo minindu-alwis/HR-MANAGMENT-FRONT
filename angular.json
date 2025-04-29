@@ -64,7 +64,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "hr-managment:build:production"
+              "buildTarget": "hr-managment:build:production",
+               "proxyConfig": "src/proxy.conf.json"
             },
             "development": {
               "buildTarget": "hr-managment:build:development"
